@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlightDash.io Sunset Notice</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .modal-dialog {
+            color: #121212;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>FlightDash.io is No Longer Cloud-Hosted</h1>
+        <p>To continue to use FlightDash.io, see <a href="https://github.com/brian-mckeown/flightdash" target="_blank">GitHub</a> for local installation instructions.</p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#developerModal">
+            Note from Developer
+        </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="developerModal" tabindex="-1" role="dialog" aria-labelledby="developerModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="developerModalLabel">From the Developer</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>First and foremost, I want to extend a heartfelt thank you to each and every one of you for your incredible support of FlightDash.io! Since launching the first AI cabin crew tool in 2023, it’s been an amazing journey bringing innovative tools to the flight simulation community.</p>
+                    <p>As many of you know, AI technology has rapidly evolved, and the flightsim space has seen some exciting developments. One standout example is SayIntentions.ai, a platform offering AI-driven ATC, cabin crew, mentors, tour guides, dispatchers, and so much more on the horizon.</p>
+                    <h5>🚀 My Next Chapter</h5>
+                    <p>After connecting with the talented team behind SayIntentions.ai, I’m excited to announce that I will be shifting my focus and joining them as a community mentor and internal collaborator. I truly believe in their vision and dedication to pushing the boundaries of what AI can bring to our community—and I know they can deliver new features much faster than I could on my own.</p>
+                    <h5>📅 What does this mean for FlightDash.io?</h5>
+                    <p>After an amazing run, FlightDash.io will be officially sunset at the end of October 2024. While the platform will no longer be hosted after this date, I’ll be updating and sharing the open-source project on GitHub with clear instructions for those of you who’d like to continue using it locally on your own machine.</p>
+                    <p>Please note that after October, all support, including Discord, will be closed, and there will be no further updates or enhancements. However, I’ll make sure all existing support articles are moved to the GitHub repository for reference.</p>
+                    <h5>🗨️ Need Assistance?</h5>
+                    <p>In the meantime, if you have any questions or need assistance, feel free to ask on Discord while we’re still live.</p>
+                    <h5>🌐 Explore SayIntentions.ai</h5>
+                    <p>If you haven’t already, I highly encourage you to check out SayIntentions.ai! They offer a free trial, with both subscription and one-time payment options. You can learn more and sign up HERE.</p>
+                    <p>Thanks again for your support, and I’m excited to see where the future of AI in the flight sim world takes us! 🚀✈️</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
